@@ -1,0 +1,154 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "poppins";
+}
+
+.up {
+  height: 50vh;
+  min-width: 100vw;
+}
+
+footer {
+  position: relative;
+  min-height: 50vh;
+  min-width: 100vw;
+  background: #020713;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footheader {
+  width: 95vw;
+  height: 8vh;
+  display: flex;
+  margin: 0 2.5vw;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footheader a {
+  text-decoration: none;
+  color: White;
+  font-size: calc(0.6rem + 1vw);
+}
+.footheader ul {
+  list-style: none;
+}
+.footheader li {
+  margin: 1rem 1.5vh;
+}
+.footheader ul {
+  display: flex;
+  justify-content: space-around;
+}
+#logo {
+  height: 9vh;
+  padding: 0.5rem 0;
+}
+/* ----------------------------------------------------- */
+.footmain {
+  width: 95vw;
+  min-height: 35vh;
+  display: flex;
+  margin: 0 2.5vw;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(0.25rem + 1vw);
+  flex-wrap: wrap;
+}
+.add {
+  height: 33vh;
+  width: 30%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.add ul {
+  list-style: none;
+}
+.add li {
+  display: flex;
+  margin: 1rem;
+  align-items: center;
+  color: white;
+}
+.add a {
+  text-decoration: none;
+  color: white;
+}
+
+.add img {
+  height: 1.2rem;
+  margin-right: 7px;
+}
+
+/* -------------------- */
+.signature {
+  height: 33vh;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social {
+  height: 33vh;
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+.social ul {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.social li {
+  padding-left: 2vw;
+}
+/* -------------------------------------- */
+.baseline {
+  width: 95vw;
+  display: flex;
+  height: 4vh;
+  margin: 0 2.5vw;
+  align-items: center;
+  justify-content: center;
+  font-family: "poppins";
+  color: rgb(221, 221, 221);
+}
+
+.baseline h3 {
+  font-weight: 200;
+  font-size: calc(0.6rem + 1vw);
+}
+
+@media screen and (max-width: 769px) {
+  .footmain {
+    flex-direction: column;
+  }
+  .add {
+    height: 20vh;
+    width: 100%;
+  }
+  .signature {
+    width: 100%;
+  }
+  .social {
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+  }
+  .social ul {
+    width: 90vh;
+    justify-content: space-around;
+  }
+}
